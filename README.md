@@ -1,8 +1,20 @@
 # HerGaurd AI
-HerGaurd AI is an agent-based women’s safety and health platform that moves beyond manual SOS systems by using context-aware AI reasoning to detect risk before emergencies occur. The system continuously evaluates user behavior, environment, and health context to identify intent mismatch, a key signal of vulnerability.
+HerGuard AI is an agentic AI backend service designed to proactively assess women’s safety risks and trigger timely interventions. The system operates as an independent reasoning layer, integrating securely with an external authentication and data service while remaining fully decoupled from storage and identity management.
 
-A dedicated Guardian Safety Agent securely manages authentication, trusted contacts, risk history, and alert escalation. Based on ethical autonomy rules, the agent decides when to observe, nudge, or notify trusted contacts through real-time communication channels.
+This architecture enables intelligent, ethical, and scalable decision-making without tightly coupling business logic to the database layer.
 
-The platform is built on a three-layer architecture: a Flutter mobile app for users, an application backend for workflow management, and a secure AI safety microservice for data, decision-making, and notifications. This design ensures privacy, auditability, and responsible AI operation.
+## 🔍 Problem Statement
 
-HerGuide AI delivers proactive, intelligent, and ethical protection, turning women’s safety into a continuous, adaptive safety system rather than a panic-driven response.
+Most women’s safety applications are reactive, relying on manual SOS triggers that may be impossible during high-stress or constrained situations. Cognivia addresses this gap by introducing an intent-aware guardian agent that reasons over contextual inputs to identify elevated risk scenarios and act autonomously when necessary.
+
+## 🧠 Solution Overview
+
+Cognivia implements an agent-based reasoning layer that:
+
+Evaluates contextual risk signals
+
+Makes autonomous or semi-autonomous decisions
+
+Communicates with an external backend for notifications and user data
+
+Preserves privacy through explainable, rule-based logic
