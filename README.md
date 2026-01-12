@@ -18,3 +18,28 @@ Makes autonomous or semi-autonomous decisions
 Communicates with an external backend for notifications and user data
 
 Preserves privacy through explainable, rule-based logic
+
+## ✨ Key Features
+🧠 Agentic Risk Evaluation
+
+Analyzes contextual inputs (e.g., time of day)
+
+Detects elevated risk without manual triggers
+
+🔔 Intelligent Escalation
+
+Automatically triggers notifications during high-risk scenarios
+
+Avoids unnecessary alerts in low-risk conditions
+
+🔗 Decoupled Backend Integration
+
+No direct database access
+
+Secure HTTP-based communication with external services
+
+🧩 Modular Design
+
+Clear separation of routes, controllers, and services
+
+Easy to extend with additional risk signals or models
