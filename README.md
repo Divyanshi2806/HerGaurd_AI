@@ -5,11 +5,11 @@ This architecture enables intelligent, ethical, and scalable decision-making wit
 
 ## 🔍 Problem Statement
 
-Most women’s safety applications are reactive, relying on manual SOS triggers that may be impossible during high-stress or constrained situations. Cognivia addresses this gap by introducing an intent-aware guardian agent that reasons over contextual inputs to identify elevated risk scenarios and act autonomously when necessary.
+Most women’s safety applications are reactive, relying on manual SOS triggers that may be impossible during high-stress or constrained situations. HerGuard addresses this gap by introducing an intent-aware guardian agent that reasons over contextual inputs to identify elevated risk scenarios and act autonomously when necessary.
 
 ## 🧠 Solution Overview
 
-Cognivia implements an agent-based reasoning layer that:
+HerGuard implements an agent-based reasoning layer that:
 
 Evaluates contextual risk signals
 
