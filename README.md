@@ -19,6 +19,26 @@ Communicates with an external backend for notifications and user data
 
 Preserves privacy through explainable, rule-based logic
 
+## ⚙️ Tech Stack
+
+Agentic AI logic for contextual risk evaluation
+
+Node.js & Express for backend services
+
+Flutter for cross-platform mobile interface
+
+PostgreSQL for secure data handling
+
+JWT & bcrypt for authentication and access control
+
+Event-based notifications for real-time alerts
+
+REST APIs for service communication
+
+ngrok for distributed backend integration
+
+Postman for API testing
+
 ## ✨ Key Features
 🧠 Agentic Risk Evaluation
 
